@@ -4,17 +4,17 @@
 #define __LCRANDOM__
 
 // calcula e devolve um valor pseudoaleatório
-unsigned long lcrandom () ;
+long lcrandom () ;
 
 // define o valor inicial (semente) da sequência de aleatórios
 // (inicialmente zero (0) por default
-void lcrandom_seed (unsigned long s) ;
+void lcrandom_seed (long s) ;
 
 // informa o valor máximo que pode ser gerado (o mínimo é sempre zero)
-unsigned long lcrandom_max () ;
+long lcrandom_max () ;
 
 // modifica os parâmetros da equação do gerador; por default
 // devem ser usados: A=40692, C=127 e M=10000000
-void lcrandom_parms (unsigned long A, unsigned long C, unsigned long M) ;
+void lcrandom_parms (long A, long C, long M) ;
 
 #endif
