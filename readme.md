@@ -20,4 +20,4 @@ Cálculo do período:
 gcc lcrandom.c periodo.c -o periodo
 ```
  
-### Obs.: Qualquer alteração de parâmetros deve ser feita no código
+### Obs.: Qualquer alteração de parâmetros deve ser feita diretamente no código
